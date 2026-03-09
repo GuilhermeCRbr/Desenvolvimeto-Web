@@ -1,0 +1,384 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header h1 {
+  width: 240px;
+  float: left;
+  background-image: url(../Multimidia/meu-amigo-cao-petshop-header.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 200px;
+  text-indent: -1000px;
+  margin-bottom: 0;
+}
+header #anuncio {
+  width: 510px;
+  float: left;
+  margin: 80px auto auto;
+  padding-top: 0;
+}
+header section{
+padding-top: 70px;
+}
+
+header section a[href="boletim.html"]{
+  border: #c0262c solid 1px ;
+  padding: 15px;
+  border-radius: 15px;
+  color: #c0262c;
+  text-decoration: none;
+  font-size: 1em;
+}
+header section p{
+  color: #999;
+  margin: 33px auto 7px;
+}
+header section figure{
+  width: 100%;
+  margin: 0;
+}
+header section figure a{
+  padding:  25px 5px 0;
+  border: none;
+}
+
+header section figure a:first-child{
+  padding: 24px 5px 0 0;
+}
+header section figure a:last-child{
+  padding: 25px 0 0 5px;
+}
+nav{
+  background-color: #000;
+  overflow: auto;
+  clear: both;
+  margin-top: 10px;
+  
+}
+
+nav ul{
+  list-style: none;
+  padding-left: 0;  
+  margin-top: 1px;
+}
+
+nav ul li{
+  padding-bottom: 40px;
+  float: left;
+}
+
+nav ul a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+  padding: 8px 30px;
+  line-height: 2em;
+}
+
+#inicial a[href="index.html"],
+#quemsomos a[href="quem-somos.html"],
+#produtos a[href="produtos.html"],
+#banhoetosa a[href="banho-e-tosa.html"],
+#curiosidades a[href="curiosidades.html"]{
+  background-color: #c0262c;
+}
+#inicial aside{
+  width: 230px;
+  float: left;
+  margin-top: 30px;
+}
+
+#inicial main{
+  width: 490px;
+  float: left;
+  margin: 30px 25px 10px;
+}
+
+#quemsomos main img{
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  border: solid #c0262c thin;
+  background-color: #fff;
+}
+
+#obrigado main p img{
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  border: solid #c0262c 1px;
+  background-color: #fff;
+}
+
+#destaqueobrigado {
+  position: relative;
+  border: solid #c0262c 1px;
+  border-radius: 0 25px;
+  margin: 20px 0;
+  padding: 5px 25px;
+}
+
+#obrigado #lacinho{
+  position: absolute;
+  top: -20px;
+  right: -20px;
+  transform: rotate(30deg);
+}
+.anuncioanime{
+  margin: 0 0 10px;
+  padding: 0;
+  overflow: auto;
+}
+
+.anuncioanime .boxanuncio{
+  width: 163px;
+  height: 230px;
+  border-bottom: #c0262c solid 1px;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.anuncioanime .boxanuncio p{
+  text-align: center;
+  font-size: 0.95em;
+  line-height: 1.3em;
+  background-color: rgb(255, 255, 255 ,1);
+  border-left: solid 1px #c0262c;
+  border-right: solid 1px #c0262c;
+  margin: 0;
+  padding: 7px 15px;
+  position: absolute;
+  bottom: -85px;
+  left: 0;
+  transition: 1s linear 0.1s;
+  cursor: default;
+}
+
+.anuncioanime .boxanuncio p:first-line{
+  font-size: 1.1em;
+  font-variant: inherit;
+  font-style: normal;
+  font-weight: bolder;
+  color: #c0262c;
+  padding: 0;
+
+}
+
+.anuncioanime .boxanuncio p:hover{
+  background-color: rgb(255, 255, 255, 0.7);
+  bottom: 0px;
+}
+
+aside audio{
+  width: 225px;
+}
+
+aside video{
+  width: 230px;
+}
+
+footer{
+  clear: both;
+  border-top: 7px solid #999;
+  background-color:#000;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p{
+  margin:0px;
+
+}
+
+main h1 {
+  color: #c0262c; /* mudar a cor da letra */
+  font-size: 2.5em; /* alterar o tamnho da fonte */
+  border-bottom: #c0262c solid 1px; /* alterar o tamnho da fonte */
+  padding-bottom: 7px;
+}
+
+main h2 {
+  font-size: 1.75em; /* aumenta o tamanho da fonte */
+  background: #c0262c url(../Multimidia/back-bolinha.gif) repeat center top;
+  color: #fff;
+  letter-spacing: 0.1em;
+  padding: 7px;
+  width: 316px;
+}
+
+main p {
+  font-size: 1.1em; /* aumenta o tamanho da fonte */
+  line-height: 1.3em;
+  text-align: justify;
+}
+
+main h2 + p:first-line {/* para modificar a preimeira  linha */
+  font-size: 1.17em; /* aumenta o tamanho da fonte */
+  font-variant: small-caps; /* transforma em maiusculo */
+  font-weight: bolder; /* deixa as letras em negrito */
+  font-style: italic; /* muda a fonte */
+}
+
+main hr {
+  border-color: #c0262c; /* mudar a cor da borda */
+}
+#Produtos table {
+  width: 600px;
+  margin: 50px auto 30px;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+#Produtos th,
+#Produtos td {
+  border: #999 solid 1px;
+  padding: 5px;
+}
+
+#Produtos caption {
+  background-color: #999;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 1.5em;
+}
+
+#Produtos td[colspan] {
+  font-style: italic;
+  font-weight: bold;
+  color: #999;
+}
+
+#Produtos tr td:hover,
+#Produtos tr th:hover {
+  background-color: #feff76;
+}
+
+form {
+  background-color: #999;
+  margin: 30px 0;
+  padding: 20px;
+  border-radius: 0 15px;
+}
+
+input[type="submit"] {
+  background-color: #c0262c;
+  background: linear-gradient(
+    to bottom,
+    #6b1516 0%,
+    #c0262c 30%,
+    #c0262c 70%,
+    #6b1516 100%
+  );
+  border: none;
+  border-radius: 30px;
+  font-size: 1.2em;
+  color: #fff;
+  padding: 10px 30px;
+  margin: 20px 0;
+  text-shadow: 20px 10px 60px #000;
+  cursor: pointer;
+}
+
+#user,
+#email_user {
+  background-color: transparent;
+  border: none;
+  border-bottom: #000 solid 1px;
+  font-size: 1.2em;
+  color: #fff;
+  width: 800px;
+}
+::-webkit-input-placeholder {
+  color: #ddd;
+  font-style: italic;
+  font-size: 0.8em;
+}
+
+::-moz-placeholder {
+  color: #ddd;
+  font-style: italic;
+  font-size: 0.8em;
+}
+::placeholder {
+  color: #ddd;
+  font-style: italic;
+  font-size: 0.8em;
+}
+label {
+  display: block;
+  margin-top: 7px;
+  float: left;
+  width: 60px;
+}
+#banhoetosa fieldset {
+  background-color: #fff;
+  border: none;
+  border-radius: 0 15px;
+  margin-bottom: 20px;
+}
+
+#banhoetosa fieldset legend {
+  background-color: #c0262c;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  padding: 10px;
+  margin-left: -13px;
+}
+
+#banhoetosa fieldset label {
+  display: block;
+  margin-top: 7px;
+  float: left;
+  width: 115px;
+}
+
+#banhoetosa fieldset input[type="text"],
+#banhoetosa fieldset input[type="email"] {
+  border: none;
+  border-bottom: #000 1px solid;
+  font-size: 1.2em;
+  color: #000;
+  width: 770px;
+}
+
+#banhoetosa fieldset textarea {
+  width: 770px;
+  height: 100px;
+  font-size: 1.2em;
+  border: #000 solid 1px;
+}
+#banhoetosa fieldset label.labelsimples {
+  display: inline;
+  float: none;
+}
+#banhoetosap {
+  text-align: left;
+}
+#banhoatosa p::first-line {
+  font-size: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+}
+#banhoetosa main h2 {
+  background: #feff76 url(../Multimidia/postit.jpg) no-repeat top left;
+  color: #000;
+  padding: 35px;
+  width: 207px;
+  height: 115px;
+  font-size: 1.3125em;
+  letter-spacing: 0.07em;
+}
+
+#quemsomos main img {
+  float: left;
+  margin: 0 20px 20px 0;
+  padding: 10px;
+  border: solid #c0262c thin;
+  background-color: #fff;
+}
